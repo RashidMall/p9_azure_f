@@ -43,6 +43,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(json.dumps(articles))
     else:
         return func.HttpResponse(
-             "This HTTP triggered function executed successfully. Pass a user_id in the query string or in the request body for a personalized response.",
+             "Lol This HTTP triggered function executed successfully. Pass a user_id in the query string or in the request body for a personalized response.",
              status_code=200
         )
